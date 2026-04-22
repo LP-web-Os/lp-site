@@ -1,0 +1,197 @@
+.btn {
+  display: inline-block;
+  padding: 14px 24px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, var(--accent), #9fd2b7);
+  color: #0a1715;
+  font-weight: 700;
+  transition: transform 0.22s ease;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-main);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.card,
+.team-card,
+.reason-card,
+.content-card,
+.highlight-box {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.card,
+.reason-card,
+.content-card,
+.highlight-box {
+  padding: 28px;
+}
+
+.team-card {
+  padding: 0;
+  overflow: hidden;
+}
+
+.team-flip-card {
+  perspective: 1200px;
+  height: 540px;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.team-flip-card:active {
+  transform: scale(0.98);
+}
+
+.team-flip-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow:
+    0 18px 40px rgba(0, 0, 0, 0.24),
+    0 0 28px rgba(127, 191, 159, 0.12);
+}
+
+.team-card-inner {
+  position: relative;
+  width: 100%;
+  min-height: 540px;
+  height: 540px;
+  max-height: 540px;
+  transform-style: preserve-3d;
+  transition: transform 0.7s ease;
+}
+
+.team-flip-card.is-flipped .team-card-inner {
+  transform: rotateY(180deg);
+}
+
+.team-card-front,
+.team-card-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius);
+  overflow: hidden;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.team-card-front {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-card-back {
+  transform: rotateY(180deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    linear-gradient(rgba(14, 31, 36, 0.92), rgba(14, 31, 36, 0.95)),
+    radial-gradient(circle at top left, rgba(127, 191, 159, 0.10), transparent 35%);
+}
+
+.team-card-back .team-card-content {
+  width: 100%;
+}
+
+.team-card-back p {
+  margin-bottom: 12px;
+  color: var(--text-soft);
+}
+
+.team-card-back a {
+  color: var(--accent-light);
+  word-break: break-word;
+}
+
+.team-card-back a:hover {
+  text-decoration: underline;
+}
+
+.flip-hint {
+  margin-top: 18px;
+  font-size: 0.92rem;
+  color: var(--accent-light);
+  opacity: 0.9;
+}
+
+.flip-back-btn {
+  margin-top: 18px;
+  padding: 10px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text-main);
+  border-radius: 10px;
+  cursor: pointer;
+  font: inherit;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.flip-back-btn:hover {
+  background: rgba(127, 191, 159, 0.12);
+  transform: translateY(-1px);
+}
+
+.team-image {
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+}
+
+.team-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+}
+
+.team-card-content {
+  padding: 24px 24px 28px;
+}
+
+.role {
+  color: var(--accent-light);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+
+.andreas-img {
+  object-position: center 32%;
+  transform: scale(0.98);
+}
+
+.oscar-img {
+  object-position: center 38%;
+  transform: scale(1.00);
+}
+
+.kristin-img {
+  object-position: center 28%;
+  transform: scale(1.00);
+}
+
+.alexander-img {
+  object-position: center 34%;
+  transform: scale(1.00);
+}
