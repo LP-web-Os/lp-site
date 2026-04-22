@@ -97,6 +97,7 @@
 .team-card-front {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .team-card-back {
@@ -153,8 +154,10 @@
 
 .team-image {
   width: 100%;
-  height: 260px;
+  height: 90%;
   overflow: hidden;
+  min-height: 170px;  
+  max-height: 170px;
 }
 
 .team-image img {
@@ -178,20 +181,16 @@
 
 .andreas-img {
   object-position: center 32%;
-  transform: scale(0.98);
 }
 
 .oscar-img {
   object-position: center 38%;
-  transform: scale(1.00);
 }
 
 .kristin-img {
   object-position: center 28%;
-  transform: scale(1.00);
 }
 
 .alexander-img {
-  object-position: center 34%;
-  transform: scale(1.00);
+  object-position: center 20%;
 }
