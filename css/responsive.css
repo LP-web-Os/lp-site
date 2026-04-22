@@ -49,8 +49,6 @@
 }
 
 @media (max-width: 768px) {
-
-  /* 🔹 Navbar struktur */
   .navbar {
     flex-direction: column;
     align-items: stretch;
@@ -61,7 +59,6 @@
     justify-content: center;
   }
 
-  /* 🔹 Meny */
   .nav-links {
     justify-content: center;
     flex-wrap: wrap;
@@ -72,13 +69,11 @@
     flex: 0 0 auto;
   }
 
-  /* 🔹 Språkvalg */
   .language-switch {
     justify-content: center;
     margin-top: 4px;
   }
 
-  /* 🔹 Hero spacing */
   .hero-content {
     text-align: center;
   }
@@ -87,14 +82,12 @@
     justify-content: center;
   }
 
-  /* 🔹 Kort spacing */
   .card-grid,
   .team-grid,
   .reason-grid {
     gap: 18px;
   }
 
-  /* 🔹 Teamkort forbedring */
   .team-flip-card {
     min-height: 480px;
   }
@@ -103,12 +96,10 @@
     min-height: 480px;
   }
 
-  /* 🔹 Mindre padding */
   .team-card-content {
     padding: 18px;
   }
 
-  /* 🔹 Litt mindre bilde */
   .team-image {
     height: 200px;
   }
