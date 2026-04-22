@@ -23,6 +23,10 @@ const translations = {
     "home.directionTitle": "Vi utvikler teknologi som kan bidra til å redusere lusepress og forbedre fiskevelferd",
     "home.directionText": "Vår ambisjon er å utvikle en løsning som håndterer lus på fiskens egne premisser, skånsomt, naturlig for fisken å oppsøke, og praktisk enkel å ta i bruk for røktere.",
     "home.directionBtn": "Les vår historie",
+    "home.investorTag": "Investor",
+    "home.investorTitle": "Vi søker investorer som vil være med på reisen",
+    "home.investorText": "LicePliers er i utvikling, og vi ønsker kontakt med investorer som ser potensialet i nye og mer skånsomme løsninger for havbruksnæringen. Dersom du ønsker å høre mer om selskapet, teknologien eller veien videre, tar vi gjerne en samtale.",
+    "home.investorBtn": "Kontakt oss",
 
     "history.tag": "Historie",
     "history.title": "Hvordan vi startet",
@@ -58,10 +62,13 @@ const translations = {
     "why.r5.title": "5. Naturlige løsninger",
     "why.r5.text": "Målet er å gjenskape strukturer fra laksens naturlige miljø for å utnytte dens iboende atferd til å redusere og fjerne lakselus.",
 
-
     "contact.tag": "Kontakt",
     "contact.title": "Ta kontakt med oss",
-    "contact.intro": "Er du interessert i samarbeid, teknologi eller vår videre utvikling, hører vi gjerne fra deg.",
+    "contact.intro": "Er du interessert i samarbeid, teknologi, investering eller vår videre utvikling, hører vi gjerne fra deg.",
+    "contact.investorTag": "Investor",
+    "contact.investorTitle": "Ønsker du å investere i LicePliers?",
+    "contact.investorText": "Vi er åpne for dialog med investorer som ønsker å være med videre. Ta gjerne kontakt dersom du vil høre mer om selskapet, teknologien, utviklingsløpet eller investeringsmuligheter.",
+    "contact.investorBtn": "Ta kontakt om investering",
     "contact.infoTitle": "Kontaktinformasjon",
     "contact.emailLabel": "E-post:",
     "contact.phoneLabel": "Telefon:",
@@ -70,6 +77,7 @@ const translations = {
     "contact.topic1": "Partnerskap og samarbeid",
     "contact.topic2": "Produkter, løsninger og pilotprosjekter",
     "contact.topic3": "Spørsmål om selskapet og teamet",
+    "contact.topic4": "Investorhenvendelser og investeringsmuligheter",
 
     "footer.copy": "© 2026 Licepliers AS. Alle rettigheter forbeholdt."
   },
@@ -98,6 +106,10 @@ const translations = {
     "home.directionTitle": "We develop technology that can help reduce lice pressure and improve fish welfare",
     "home.directionText": "Our ambition is to develop a solution that tackles sea lice on the fish's own terms, gentle, naturally attractive to the fish, and simple for farmers to implement in practice.",
     "home.directionBtn": "Read our story",
+    "home.investorTag": "Investor",
+    "home.investorTitle": "We are looking for investors to join our journey",
+    "home.investorText": "LicePliers is under development, and we are looking to connect with investors who see the potential in new and more gentle solutions for the aquaculture industry. If you would like to learn more about the company, the technology, or the road ahead, we would be happy to talk.",
+    "home.investorBtn": "Contact us",
 
     "history.tag": "History",
     "history.title": "How we started",
@@ -135,7 +147,11 @@ const translations = {
 
     "contact.tag": "Contact",
     "contact.title": "Get in touch",
-    "contact.intro": "If you are interested in collaboration, technology, or our further development, we would be happy to hear from you.",
+    "contact.intro": "If you are interested in collaboration, technology, investment, or our further development, we would be happy to hear from you.",
+    "contact.investorTag": "Investor",
+    "contact.investorTitle": "Are you interested in investing in LicePliers?",
+    "contact.investorText": "We are open to dialogue with investors who would like to join us on the journey ahead. Please feel free to contact us if you would like to learn more about the company, the technology, the development path, or investment opportunities.",
+    "contact.investorBtn": "Contact us about investing",
     "contact.infoTitle": "Contact information",
     "contact.emailLabel": "Email:",
     "contact.phoneLabel": "Phone:",
@@ -144,6 +160,7 @@ const translations = {
     "contact.topic1": "Partnerships and collaboration",
     "contact.topic2": "Products, solutions, and pilot projects",
     "contact.topic3": "Questions about the company and the team",
+    "contact.topic4": "Investor inquiries and investment opportunities",
 
     "footer.copy": "© 2026 Licepliers AS. All rights reserved."
   }
