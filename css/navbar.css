@@ -8,13 +8,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(10, 25, 30, 0.46);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-top: none;
-  border-radius: 0 0 18px 18px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.16);
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.16);
   overflow: hidden;
 }
 
@@ -25,9 +25,9 @@
   background: linear-gradient(
     120deg,
     transparent 0%,
-    rgba(255, 255, 255, 0.05) 18%,
-    rgba(127, 191, 159, 0.08) 50%,
-    transparent 82%
+    rgba(255, 255, 255, 0.08) 18%,
+    rgba(143, 209, 175, 0.10) 52%,
+    transparent 84%
   );
   pointer-events: none;
 }
@@ -49,6 +49,7 @@
   font-weight: 700;
   font-size: 1.2rem;
   color: var(--accent-light);
+  letter-spacing: 0.2px;
 }
 
 .nav-links {
@@ -64,12 +65,14 @@
   font-weight: 500;
   position: relative;
   padding: 4px 0;
-  transition: color 0.25s ease;
+  transition: color 0.25s ease, opacity 0.25s ease;
+  opacity: 0.92;
 }
 
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--accent-light);
+  opacity: 1;
 }
 
 .nav-links a::after {
@@ -96,21 +99,22 @@
 }
 
 .lang-btn {
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: rgba(255, 255, 255, 0.08);
   padding: 6px 8px;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1rem;
   line-height: 1;
-  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease;
+  transition: transform 0.2s ease, background 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 .lang-btn:hover,
 .lang-btn.active {
   transform: translateY(-1px);
-  background: rgba(127, 191, 159, 0.14);
-  border-color: rgba(199, 228, 213, 0.28);
+  background: rgba(143, 209, 175, 0.16);
+  border-color: rgba(217, 241, 230, 0.34);
+  box-shadow: 0 0 0 4px rgba(143, 209, 175, 0.08);
 }
 
 @media (max-width: 768px) {
